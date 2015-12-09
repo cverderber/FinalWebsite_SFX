@@ -1,0 +1,205 @@
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.logo
+{
+position: fixed;
+  top: 41.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttongrid
+{
+	  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-7%, -50%);
+}
+
+.coin
+{
+	  position: fixed;
+  top: 60%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.coinagain
+{
+	  position: fixed;
+  top: 40%;
+  left: 25%;
+  transform: translate(-0%, -50%);
+}
+
+
+.mariobody
+{
+	  position: fixed;
+  top: 50%;
+  right: 10%;
+  transform: translate(-480%, -0%);
+}
+
+
+.lefttext
+{
+	position: fixed;
+	top: 10%;
+	left: 90%;
+	  transform: translate(-50%, -50%);
+}
+
+h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 3em;
+  text-transform: uppercase;
+  position: fixed;
+  font-family: 'Press Start 2P', sans-serif;
+  left: 35px;
+    top: 50px;
+
+}
+
+h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 5em;
+  text-transform: uppercase;
+  position: fixed;
+  font-family: 'Press Start 2P', sans-serif;
+  left: 373px;
+  top: 100px;
+}
+
+.player {
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  position: fixed;
+  font-family: 'Press Start 2P', sans-serif;
+  top: 73%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+h5 {
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  position: fixed;
+  font-family: 'Press Start 2P', sans-serif;
+  top: 5%;
+  left: 20%;
+
+  transform: translate(-50%, -50%);	
+}
+
+h6 {
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  position: fixed;
+  font-family: 'Press Start 2P', sans-serif;
+  top: 7%;
+  left: 12.5%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);	
+}
+
+h7 {
+  color: pink;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  position: fixed;
+  font-family: 'Press Start 2P', sans-serif;
+  right: 125px;
+  top: 700px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);	
+}
+
+/*
+.inner {
+  position: relative;
+  z-index: 3;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(black,0.6);
+}
+*/
+
+
+
+.overlay{
+  position:fixed;
+   background: url('pics/circular.gif'); repeat-x center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
+  -webkit-animation:20s scroll infinite linear;
+  -moz-animation:20s scroll infinite linear;
+  -o-animation:20s scroll infinite linear;
+  -ms-animation:20s scroll infinite linear;
+  animation:20s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:100%;
+}
+
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:-3000px 0px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: .5em;
+  text-transform: uppercase;
+  position: fixed;
+  font-family: 'Press Start 2P', sans-serif;
+  left: 380px;
+  top: 245px;
+}
